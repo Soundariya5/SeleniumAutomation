@@ -13,10 +13,10 @@ public class SeleniumWebdriver {
 		ChromeDriver driver=new ChromeDriver();
 		driver.get("https://www.facebook.com/login/");
 		driver.manage().window().maximize();
-		driver.findElement(By.id("email")).sendKeys("Soundariya851@gmail.com");
-		driver.findElement(By.id("pass")).sendKeys("Janu5109@");
+		driver.findElement(By.id("email")).sendKeys("Sample");
+		driver.findElement(By.id("pass")).sendKeys("123445");
 		driver.findElement(By.className("loginbutton")).click();
-		driver.findElement(By.id("approvals_code")).sendKeys("056980");
+		driver.findElement(By.id("approvals_code")).sendKeys("056748");
 	//	String text =driver.findElement(By.class(""))
 			}
 	}
